@@ -9,5 +9,6 @@ int main(){
 	strcat(nombre, apellido);
 	printf("%s\n",nombre);
 	printf("%s\n",apellido);
+	
 	return 0;
 }
