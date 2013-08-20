@@ -10,7 +10,7 @@ int main(){
 	gets(aux);
 	strcpy(prebe.nombre,aux);
 	puts("\ndame tu inicial");
-	a=getchar();
+	prebe.inicial=getchar();
 	printf("\n Tu nombre es: %s",prebe.nombre);
 	printf("\n Tu inicial es: %c",prebe.inicial);
 }
